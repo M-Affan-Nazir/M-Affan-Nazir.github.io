@@ -1,8 +1,8 @@
 {
-  "name": "affannazir.github",
+  "name": "m-affan-nazir.github.io",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://M-Affan-Nazir.github.io",
+  "homepage": "https://m-affan-nazir.github.io",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
