@@ -28,9 +28,9 @@ const Hero = () => {
             <Typewriter
               options={{
                 strings: [
-                  "Data Scientist",
+                  "Software and Algorithm Developer",
                   "Machine Learning Developer",
-                  "Software and Algorithm Developer"
+                  "Data Scientist",
                 ],
                 autoStart: true,
                 loop: true,
