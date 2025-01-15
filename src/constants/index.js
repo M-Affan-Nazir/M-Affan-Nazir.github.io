@@ -344,7 +344,7 @@ const projects = [
   {
     name: "Dynamic Currency Arbitrage Engine",
     description:
-      "Engineered a C++ arbitrage system using libcurl for API integration and nlohmann::json for data parsing. Implemented advanced graph structures with Dijkstra's Algorithm and optimized data handling with HashMaps and custom Min Priority Queues, resulting in significant performance improvements and a 1% increase in real-world arbitrage gains",
+      "Engineered a C++ arbitrage system using libcurl for API integration and nlohmann::json for data parsing. Implemented advanced graph structures with Dijkstra's and Bellman-Ford Algorithm and optimized data handling with HashMaps and custom Min Priority Queues, resulting in significant performance improvements and a 1% increase in real-world arbitrage gains",
     tags: [
       {
         name: "C++",
@@ -360,7 +360,7 @@ const projects = [
       },
     ],
     image: arbitrage,
-    source_code_link: "", //to be filled
+    source_code_link: "https://github.com/M-Affan-Nazir/arbitrage-engine", //to be filled
   },
   {
     name: "BrainWave SVM: Real-Time Mental State Detection",
