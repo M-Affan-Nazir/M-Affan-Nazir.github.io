@@ -21,6 +21,7 @@ import {
 import nat from "../assets/companies/nat.png"
 import eu from "../assets/companies/eu.jpg"
 import dat from "../assets/companies/dat.jpg"
+import instructor from "../assets/companies/instructor.png"
 import facialRecognitionCnn from "../assets/projects/facialRecognitionCnn.png"
 import transformerEncoder from "../assets/projects/transformerEncoder.png"
 import raye from "../assets/projects/raye.png"
@@ -226,9 +227,58 @@ const technologies = {
     textCol: "White",
     backCol: "darkblue",
   },
+  scikitlearn: {
+    name: "Scikit-Learn",
+    textCol: "White",
+    backCol: "orange",
+  },
+  pandas: {
+    name: "Pandas",
+    textCol: "black",
+    backCol: "white",
+  },
+  pyplot: {
+    name: "Matplotlib",
+    textCol: "white",
+    backCol: "darkblue",
+  },
+  plotly: {
+    name: "Plotly",
+    textCol: "black",
+    backCol: "lightblue",
+  },
+  jupyter: {
+    name: "Jupyter Notebook",
+    textCol: "black",
+    backCol: "yellow",
+  },
 };
 
 const experiences = [
+  {
+    title: "Machine Learning Instructor",
+    company_name: "Self-Employed",
+    company_link: "https://m-affan-nazir.github.io/", // Replace with actual URL
+    icon: instructor, // Ensure this icon is imported or defined
+    iconBg: "white", // Adjust color as needed
+    date: "January 2025 – April 2025",
+    points: [
+      "Delivered 20+ hours of hands-on Python fundamentals covering functions, lists, tuples, and control structures.",
+      "Guided algorithmic problem-solving with loops and modular functions to develop coding solutions.",
+      "Taught Pandas techniques for loading, filtering, transforming, and cleaning DataFrames.",
+      "Covered data preprocessing best practices—normalization, encoding, and handling missing values.",
+      "Led interactive visualization sessions using Matplotlib and Plotly to illustrate data insights.",
+      "Provided one-on-one scikit-learn instruction on linear, polynomial, logistic regression, and classification evaluation."
+    ],
+    technologies: [
+      technologies.python,
+      technologies.scikitlearn,
+      technologies.pandas,
+      technologies.pyplot,
+      technologies.plotly,
+      technologies.jupyter
+    ],
+  },
   {
     title: "Associate Software Engineer",
     company_name: "NeurAlberta Tech",
