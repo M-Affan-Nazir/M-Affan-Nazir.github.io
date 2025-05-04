@@ -33,6 +33,10 @@ import financeSystem from "../assets/projects/financeSystem.png"
 import arbitrage from "../assets/projects/arbitrage.png"
 import svm from "../assets/projects/svm.png"
 
+import sail from "../assets/leadership/sail.png"
+import uais from "../assets/leadership/uais.jpeg"
+import lgs from "../assets/leadership/lgs.jpeg"
+
 export const navLinks = [
   {
     id: "about",
@@ -608,6 +612,74 @@ const links = {
   schoolEmail: "mnazir1@ualberta.ca",
 };
 
+const leadership = [
+  {
+    title: "Vice President",
+    company_name: "Society for Artificial Intelligence Literacy (SAIL)",
+    company_link: "https://societyforailiteracy.com/", // Replace with actual URL
+    icon: sail, // Ensure this icon is imported or defined
+    iconBg: "black", // Adjust color as needed
+    date: "April 2025 - Present",
+    points: [
+    "Organized and coordinated seminars to introduce students from technical and non technical backgrounds towards AI concepts",
+    "Covered concepts like Neural Networks, Large Language Models and Image Recognition",
+    "Co-ordinated with expert speakers including Professors and Industry-Professionals to ensure impactful presentations"
+    ]
+  },
+  {
+    title: "Treasurer",
+    company_name: "Undergraduate Artificial Intelligence Society (UAIS)",
+    company_link: "https://uais.dev/", // Replace with actual URL
+    icon: uais, // Ensure this icon is imported or defined
+    iconBg: "white", // Adjust color as needed
+    date: "April 2024 - March 2025",
+    points: [
+    "Handeled financial statements and bookkeeping to efficiently track incomming and outgoing funds",
+    "Managed submission process for grant applications",
+    "Oversaw Artificial Intelligence Projects to completion whilst ensuring timely access to necessary funds"
+    ]
+  },
+  {
+    title: "Vice President, Robotics Society",
+    company_name: "Lahore Grammar School (LGS)",
+    company_link: "https://lgsjt.edu.pk/", // Replace with actual URL
+    icon: lgs, // Ensure this icon is imported or defined
+    iconBg: "white", // Adjust color as needed
+    date: "January 2022 - January 2023",
+    points: [
+    "Led students at the National Robotics Competition - competing against 30+ teams nationwide - and secured runner-up position",
+    "Organized weekly workshops for intoducing students to Arduino Micro-Controller, C++, Python and Image Recognition",
+    "Led students in developing multiple hands-on projects - such as an Autonomous Vehicle equipped with ultraSonic and infrared sensors, combat robots, and an air-quality sensing device"
+    ]
+  },
+  {
+    title: "Head Boy",
+    company_name: "Lahore Grammar School (LGS)",
+    company_link: "https://lgsjt.edu.pk/", // Replace with actual URL
+    icon: lgs, // Ensure this icon is imported or defined
+    iconBg: "white", // Adjust color as needed
+    date: "January 2019 - January 2020",
+    points: [
+    "Lead student delegations to multiple Model United Nations and Parliamentary Debates",
+    "Facilitated monthly training sessions to enhance students' presentation and argumentation skills",
+    "Helped students prepare for their Cambridge IGCSE Examinations"
+    ]
+  },
+  {
+    title: "Vice Captain, House of Excellence",
+    company_name: "Lahore Grammar School (LGS)",
+    company_link: "https://lgsjt.edu.pk/", // Replace with actual URL
+    icon: lgs, // Ensure this icon is imported or defined
+    iconBg: "white", // Adjust color as needed
+    date: "January 2018 - January 2019",
+    points: [
+    "Represented school at multiple events",
+    "Tutored students in Math and Computer Science"
+    ]
+  },
+];
+
+
 export {
   services,
   technologiess as technologies,
@@ -615,4 +687,5 @@ export {
   testimonials,
   projects,
   links,
+  leadership,
 };
