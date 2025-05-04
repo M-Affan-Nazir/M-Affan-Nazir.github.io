@@ -14,7 +14,7 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Footer from "./Footer";
-import Leadership from "./leadership";
+import Leadership from "./Leadership";
 
 export {
   Hero,
