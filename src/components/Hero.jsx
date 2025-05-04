@@ -28,16 +28,15 @@ const Hero = () => {
             <Typewriter
               options={{
                 strings: [
-                  "Software and Algorithm Developer",
-                  "Machine Learning Developer",
                   "Data Scientist",
+                  "Software Engineer",
                 ],
                 autoStart: true,
                 loop: true,
                 cursor: "|",
-                delay: 100,
-                deleteSpeed: 40,
-                pauseFor: 1000,
+                delay: 75,
+                deleteSpeed: 30,
+                pauseFor: 1100,
                 wrapperClassName: "text-[#dfd9ff]",
                 cursorClassName: "purple-text-gradient",
               }}
