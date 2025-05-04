@@ -256,7 +256,7 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Machine Learning Instructor",
+    title: "Data Science Instructor",
     company_name: "Self-Employed",
     company_link: "https://m-affan-nazir.github.io/", // Replace with actual URL
     icon: instructor, // Ensure this icon is imported or defined
