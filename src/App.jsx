@@ -32,7 +32,7 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </BrowserRouter>
   );
