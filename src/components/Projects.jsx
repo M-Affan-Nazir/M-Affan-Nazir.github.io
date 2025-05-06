@@ -17,7 +17,7 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[300px] w-full h-full relative"
+        className="bg-white p-5 rounded-2xl sm:w-[300px] w-full h-full relative shadow-lg"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -29,15 +29,16 @@ const ProjectCard = ({
             <a
               href={source_code_link}
               target="_blank"
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              rel="noopener noreferrer"
+              className="bg-[#2563FF] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
-              <i className="fa-brands fa-github fa-xl cursor-pointer"></i>
+              <i className="fa-brands fa-github fa-xl text-white"></i>
             </a>
           </div>
         </div>
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
+          <h3 className="text-[#0D1A26] font-bold text-[24px]">{name}</h3>
+          <p className="mt-2 text-[#5B6B7F] text-[14px]">{description}</p>
         </div>
         <div className="mt-4 flex flex-wrap gap-2 pt-1 pb-1">
           <div className="absolute bottom-3 flex gap-x-2">
@@ -58,21 +59,10 @@ const Projects = () => {
     <>
       <motion.div variants={textVariant()}>
         {/* <p className={styles.sectionSubText}>Some things I've worked on</p> */}
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <h2 className={`${styles.sectionHeadText} text-[black]`}>
+          Projects
+        </h2>
       </motion.div>
-
-      {/* <div className="w-full flex">
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
-        >
-          Following projects showcases my skills and experience through
-          real-world examples of my work. Each project is briefly described with
-          links to code repositories and live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies,
-          and manage projects effectively.
-        </motion.p>
-      </div> */}
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (

@@ -14,10 +14,15 @@ import { textVariant } from "../utils/motion";
 
 const LeadershipCard = ({ item }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: "#1d1836", color: "#fff" }}
-    contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+    // card background → white; text → primary
+    contentStyle={{ background: "#FFFFFF", color: "#0D1A26" }}
+    // arrow → white to match card
+    contentArrowStyle={{ borderRight: "7px solid #FFFFFF" }}
     date={item.date}
-    iconStyle={{ background: item.iconBg }}
+    // date text → secondary
+    dateClassName="text-[#5B6B7F]"
+    // icon border (you already set) stays; iconBg stays
+    iconStyle={{ background: item.iconBg, border: "2px solid #2563FF" }}
     icon={
       <a href={item.company_link} target="_blank" rel="noopener noreferrer">
         <div className="flex justify-center items-center w-full h-full">
@@ -31,12 +36,16 @@ const LeadershipCard = ({ item }) => (
     }
   >
     <div>
-      <h3 className="text-white text-[24px] font-bold">{item.title}</h3>
+      {/* title → primary */}
+      <h3 className="text-[#0D1A26] text-[24px] font-bold">
+        {item.title}
+      </h3>
+      {/* company link → accent */}
       <a
         href={item.company_link}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-secondary text-[16px] font-semibold cursor-pointer"
+        className="text-[#2563FF] text-[16px] font-semibold cursor-pointer"
         style={{ margin: 0 }}
       >
         {item.company_name}
@@ -45,9 +54,10 @@ const LeadershipCard = ({ item }) => (
 
     <ul className="mt-5 list-disc ml-5 space-y-2">
       {item.points.map((p, i) => (
+        // points → secondary
         <li
           key={i}
-          className="text-white-100 text-[14px] pl-1 tracking-wider"
+          className="text-[#5B6B7F] text-[14px] pl-1 tracking-wider"
         >
           {p}
         </li>
@@ -59,12 +69,18 @@ const LeadershipCard = ({ item }) => (
 const Leadership = () => (
   <>
     <motion.div variants={textVariant()}>
-      <p className={styles.sectionSubText}>Things I do that aren't work, but are just as valuable</p>
-      <h2 className={styles.sectionHeadText}>Leadership Experience</h2>
+      {/* subtitle → secondary */}
+      <p className={`${styles.sectionSubText} text-[#5B6B7F]`}>
+        Things I do that aren't work, but are just as valuable
+      </p>
+      {/* heading → primary */}
+      <h2 className={`${styles.sectionHeadText} text-[black]`}>
+        Leadership Experience
+      </h2>
     </motion.div>
 
     <div className="mt-20 flex flex-col">
-      <VerticalTimeline>
+      <VerticalTimeline lineColor="#2563FF">
         {leadership.map((item, idx) => (
           <LeadershipCard key={idx} item={item} />
         ))}

@@ -16,14 +16,18 @@ const ExperienceCard = ({ experience }) => {
   return (
     <VerticalTimelineElement
       contentStyle={{
-        background: "#1d1836",
-        color: "#fff",
+        background: "#FFFFFF",
+        color: "#0D1A26",
       }}
-      contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+      contentArrowStyle={{ borderRight: "7px solid #FFFFFF" }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
+      iconStyle={{ background: experience.iconBg, border: "2px solid #2563FF" }}
       icon={
-        <a href={experience.company_link} target="_blank">
+        <a
+          href={experience.company_link}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <div className="flex justify-center items-center w-full h-full">
             <img
               src={experience.icon}
@@ -35,11 +39,14 @@ const ExperienceCard = ({ experience }) => {
       }
     >
       <div>
-        <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+        <h3 className="text-[#0D1A26] text-[24px] font-bold">
+          {experience.title}
+        </h3>
         <a
           href={experience.company_link}
           target="_blank"
-          className="text-secondary text-[16px] font-semibold cursor-pointer"
+          rel="noopener noreferrer"
+          className="text-[#2563FF] text-[16px] font-semibold cursor-pointer"
           style={{ margin: 0 }}
         >
           {experience.company_name}
@@ -50,7 +57,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.points.map((point, index) => (
           <li
             key={`experience-point-${index}`}
-            className="text-white-100 text-[14px] pl-1 tracking-wider"
+            className="text-[#5B6B7F] text-[14px] pl-1 tracking-wider"
           >
             {point}
           </li>
@@ -61,7 +68,7 @@ const ExperienceCard = ({ experience }) => {
         {experience.technologies.map((technology, index) => (
           <p
             key={index}
-            className="rounded-full pl-3 pr-3 "
+            className="rounded-full pl-3 pr-3"
             style={{
               background: technology.backCol,
               color: technology.textCol,
@@ -79,12 +86,16 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I've have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience</h2>
+        <p className={`${styles.sectionSubText} text-[#5B6B7F]`}>
+          What I've have done so far
+        </p>
+        <h2 className={`${styles.sectionHeadText} text-[black]`}>
+          Work Experience
+        </h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+        <VerticalTimeline lineColor="#2563FF">
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />
           ))}
