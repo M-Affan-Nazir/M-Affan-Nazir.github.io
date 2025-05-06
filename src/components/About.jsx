@@ -38,7 +38,6 @@ const About = () => {
   return (
     <section
       id="about"
-      className="w-full h-screen"
     >
       {/*change this for gradient*/}
       <div
@@ -61,21 +60,28 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-[#5B6B7F] text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a second-year Bachelor of Computing Science student at the University of Alberta, specializing in Artificial Intelligence. 
-        I have honed my skills as a Software Engineer and AI Quality Assurance Specialist, building a strong foundation in machine learning, data science, and algorithm design. 
-        My diverse projects include developing neural networks for facial recognition and cancer detection, creating a dynamic currency arbitrage engine in C++, and designing mobile apps and real-time mental state detection systems using tools like Python, TensorFlow, PyTorch, and React Native. 
-        These experiences have equipped me with a deep understanding of both theoretical concepts and practical applications.
+      I'm a 3rd-year Computing Science student at the University of Alberta, passionate about leveraging Data Science techniques to build advanced predictive models and translate data into business value. I am also skilled in developing scalable software solutions.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className="mt-4 text-[#5B6B7F] text-[17px] max-w-3xl leading-[30px]"
+      >
+      My expertise lie in applying statistical methods with tools such as IBM SPSS and R to extract actionable insights, while leveraging Python libraries like Sci-kit Learn, TensorFlow and PyTorch to developing robust models.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.3, 1)}
         className="mt-4 text-[#5B6B7F] text-[17px] max-w-3xl leading-[30px]"
       >
-        Beyond my technical expertise, I am passionate about continuous learning and collaboration. 
-        I have actively participated in hackathons, leading the BrainWave SVM project for real-time mental state detection. 
-        Additionally, as a Treasurer for the Undergraduate Artificial Intelligence Society, I oversaw ongoing projects and ensured proper funding to each, making sure they went to completion. 
-        In my free time, I enjoy staying active through sports, hiking, and playing chess, while also keeping abreast of the latest advancements in machine learning and data science. 
-        As an engineer and developer, I am always eager to explore new technologies, collaborate with like-minded individuals, and contribute to impactful projects.
+      Inspired by timeless lessons from books like *Zero to One* - I enjoy working on start-up ideas that blend software engineering and machine learning to tackle problems faced by my circle.
+      </motion.p>
+
+      <motion.p
+        variants={fadeIn("", "", 0.3, 1)}
+        className="mt-4 text-[#5B6B7F] text-[17px] max-w-3xl leading-[30px]"
+      >
+        In my down time, you'll find me designing on prototype solutions with like minded friends, hiking, or spending time with loved ones!
       </motion.p>
 
       {/* <div className="mt-20 flex flex-wrap gap-10">
