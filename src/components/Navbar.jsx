@@ -75,6 +75,10 @@ const Navbar = () => {
           <p className="text-[#0D1A26] text-[18px] lg:text-[22px] font-bold cursor-pointer sm:flex hidden">
               Data Scientist
           </p>
+          <p className="text-[#5B6B7F] text-[26px] font-bold">|</p>
+          <p className="text-[#0D1A26] text-[18px] lg:text-[22px] font-bold cursor-pointer sm:flex hidden">
+              Software Engineer
+          </p>
           {/* <Link to={links.linkedin} target="_blank">
             <i className="fa-brands fa-linkedin fa-xl cursor-pointer text-[#0D1A26] hover:text-[#2563FF]"></i>
           </Link>
