@@ -67,7 +67,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-[#5B6B7F] text-[17px] max-w-3xl leading-[30px]"
       >
-      My expertise lie in applying statistical methods with tools such as IBM SPSS and R to extract actionable insights, while leveraging Python libraries like Sci-kit Learn, TensorFlow and PyTorch to developing robust models.
+      My expertise lie in applying statistical methods with tools such as IBM SPSS and R to extract actionable insights, while leveraging Python libraries like Sci-kit Learn, TensorFlow and PyTorch to develop robust models.
       </motion.p>
 
       <motion.p
