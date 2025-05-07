@@ -6,6 +6,12 @@ import { links } from "../constants/index";
 
 import Typewriter from "typewriter-effect";
 
+
+import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { navLinks } from "../constants";
+import favicon from "../favicon.ico";
+
 const Hero = () => {
   return (
     <section
@@ -32,6 +38,18 @@ const Hero = () => {
             <br /> <br />
             I thrive at the intersection of curiosity and insight — blending analytics with creativity to craft data-driven solutions!
           </p>
+
+          <div className="flex items-center justify-center gap-x-11">
+            <Link to={links.linkedin} target="_blank">
+              <i className="fa-brands fa-linkedin fa-2x cursor-pointer text-[#0D1A26] hover:text-[#2563FF]"></i>
+            </Link>
+            <Link to={links.github} target="_blank">
+              <i className="fa-brands fa-github fa-2x cursor-pointer text-[#0D1A26] hover:text-[#2563FF]"></i>
+            </Link>
+            <Link to={`mailto:${links.schoolEmail}`} target="_blank">
+              <i className="fa-solid fa-envelope fa-2x cursor-pointer text-[#0D1A26] hover:text-[#2563FF]"></i>
+            </Link>
+          </div>
 
 
           {/* <div className={`${styles.heroTypedText} mt-2`}>
