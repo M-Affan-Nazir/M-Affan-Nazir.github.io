@@ -18,7 +18,7 @@ const Hero = () => {
         {/* little dot + line */}
         <div className="flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#2563FF]" />
-          <div className="w-1 sm:h-80 h-40 bg-gradient-to-b from-[#2563FF] to-transparent" />
+          <div className="w-1 sm:h-96 h-64 bg-gradient-to-b from-[#2563FF] to-transparent" />
         </div>
 
         {/* intro text */}
@@ -26,7 +26,15 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-[black]`}>
             Hi, I'm <span className="text-[#2563FF]">Affan</span>
           </h1>
-          <div className={`${styles.heroTypedText} mt-2`}>
+
+          <p className={`${styles.heroSubText} mt-4 mb-10`}>
+            👋🏼 I'm a 3rd-year Computing Science student at the University of Alberta, passionate about extracting meaningful insights from data and building impactful, data-driven solutions.
+            <br /> <br />
+            I thrive at the intersection of curiosity and insight — blending analytics with creativity to craft data-driven solutions!
+          </p>
+
+
+          {/* <div className={`${styles.heroTypedText} mt-2`}>
             <Typewriter
               options={{
                 strings: ["Data Scientist", "Software Engineer"],
@@ -40,7 +48,7 @@ const Hero = () => {
                 cursorClassName: "text-[#2563FF]",
               }}
             />
-          </div>
+          </div> */}
 
           {/* Uncomment when you add your resume */}
           {/* 

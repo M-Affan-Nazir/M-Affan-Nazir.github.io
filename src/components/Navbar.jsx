@@ -72,18 +72,21 @@ const Navbar = () => {
             </div>
           </Link>
           <p className="text-[#5B6B7F] text-[26px] font-bold">|</p>
-          <Link to={links.linkedin} target="_blank">
+          <p className="text-[#0D1A26] text-[18px] lg:text-[22px] font-bold cursor-pointer sm:flex hidden">
+              Data Scientist
+          </p>
+          {/* <Link to={links.linkedin} target="_blank">
             <i className="fa-brands fa-linkedin fa-xl cursor-pointer text-[#0D1A26] hover:text-[#2563FF]"></i>
           </Link>
           <Link to={links.github} target="_blank">
             <i className="fa-brands fa-github fa-xl cursor-pointer text-[#0D1A26] hover:text-[#2563FF]"></i>
           </Link>
-          {/* <Link to={links.resume} target="_blank">
+          <Link to={links.resume} target="_blank">
             <i className="fa-solid fa-file-lines fa-xl cursor-pointer text-[#0D1A26] hover:text-[#2563FF]"></i>
-          </Link> */}
+          </Link>
           <Link to={`mailto:${links.schoolEmail}`} target="_blank">
             <i className="fa-solid fa-envelope fa-xl cursor-pointer text-[#0D1A26] hover:text-[#2563FF]"></i>
-          </Link>
+          </Link> */}
         </div>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">
