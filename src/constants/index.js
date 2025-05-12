@@ -622,8 +622,8 @@ const leadership = [
     date: "April 2025 - Present",
     points: [
     "Organized and coordinated seminars to introduce students from technical and non technical backgrounds towards AI concepts",
-    "Covered concepts like Neural Networks, Large Language Models and Image Recognition",
-    "Co-ordinated with expert speakers including Professors and Industry-Professionals to ensure impactful presentations"
+    // "Covered concepts like Neural Networks, Large Language Models and Image Recognition",
+    // "Co-ordinated with expert speakers including Professors and Industry-Professionals to ensure impactful presentations"
     ]
   },
   {
