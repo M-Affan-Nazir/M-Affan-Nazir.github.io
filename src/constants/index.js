@@ -330,9 +330,8 @@ const experiences = [
     iconBg: "black", // Adjust color as needed
     date: "April 2024 – September 2024",
     points: [
-      "Evaluated over 500 Generative models focusing on code-related responses.",
-      "Tested code snippets in Python, JavaScript, and C++ through dry runs and logical checks.",
-      "Provided detailed feedback, contributing to a significant increase in model accuracy.",
+      "Evaluated 500+ generative AI code outputs — dry-running Python, JavaScript, and C++ snippets and gave feedback that boosted model accuracy.",
+      "Evaluated RAG models’ code completions — uploaded incomplete codebases, judged outputs against fine-grained criteria, benchmarked multiple models, and supplied corrected code for model learning."
     ],
     technologies: [
       technologies.python,
