@@ -323,7 +323,7 @@ const experiences = [
     ],
   },
   {
-    title: "AI Quality Assurance Specialist",
+    title: "LLM Quality Assurance Specialist",
     company_name: "Data Annotation Tech",
     company_link: "https://www.dataannotationtech.com/", // Replace with actual URL
     icon: dat, // Ensure this icon is imported or defined
