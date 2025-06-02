@@ -267,12 +267,9 @@ const experiences = [
     iconBg: "white", // Adjust color as needed
     date: "January 2025 – April 2025",
     points: [
-      "Delivered 20+ hours of hands-on Python fundamentals covering functions, lists, tuples, and control structures.",
-      "Guided algorithmic problem-solving with loops and modular functions to develop coding solutions.",
-      "Taught Pandas techniques for loading, filtering, transforming, and cleaning DataFrames.",
-      "Covered data preprocessing best practices—normalization, encoding, and handling missing values.",
-      "Led interactive visualization sessions using Matplotlib and Plotly to illustrate data insights.",
-      "Provided one-on-one scikit-learn instruction on linear, polynomial, logistic regression, and classification evaluation."
+      "Taught 20+ hours of live Python, moving learners from core syntax to modular, algorithmic problem-solving.",
+      "Designed end-to-end data workflows—Pandas wrangling, rigorous preprocessing, and interactive Matplotlib/Plotly dashboards.",
+      "Provided 1-on-1 scikit-learn coaching on regression and classification, guiding students toward deployable models."
     ],
     technologies: [
       technologies.python,
@@ -291,10 +288,9 @@ const experiences = [
     iconBg: "black", // Adjust color as needed
     date: "September 2024 – January 2025",
     points: [
-      "Developed responsive NAT-Portal interfaces using React and TypeScript for NatHacks 2024, enhancing the official website and portal to support over 100 participants and ensure a seamless user experience.",
-      "Implemented 5 custom hooks to streamline data flow across 15+ components, enhancing application performance by 20% and reducing code duplication by 30%.",
-      "Maintained and optimized Strapi CMS, reducing load times and improving content updates for 100+ users.",
-      "Championed consistent use of Git workflows across the development team, resulting in improved code integrity.",
+      "Built a responsive React + TypeScript NAT-Portal for NatHacks 2024, serving 100+ participants with sub-second page loads and a seamless UX.",
+      "Authored 5 reusable hooks that unified state and API calls across 15 components, boosting render performance 20% and cutting duplicate code 30%.",
+      "Optimized Strapi CMS and enforced Git-flow best practices, halving content-update time while raising code-review pass rates."
     ],
     technologies: [
       technologies.react,
@@ -311,9 +307,9 @@ const experiences = [
     iconBg: "#9c39ed", // Adjust color as needed
     date: "May 2024 – August 2024",
     points: [
-      "Selected for $15,000 technology grant to develop an innovative retail solution.",
-      "Conducted interviews with 40+ retail managers and produced a comprehensive Market Analysis Document, leveraging Lean Canvas, SWOT, SAM/TAM/TOM frameworks, and market segmentation techniques to identify three major operational inefficiencies for targeted improvement.",
-      "Engineered a high-performance mobile application using TypeScript, React Native, and SQLite. Designed ER diagrams for enhanced data retrieval, and integrated react-native-ml-kit for on-device OCR receipt scanning, streamlining user workflows and increasing user adoption by recruiting 10 active beta testers.",
+      "Awarded a $15 000 Edmonton Unlimited grant to tackle retail-ops inefficiencies.",
+      "Interviewed 40+ store managers and produced a Lean-Canvas market analysis that surfaced three high-value pain points.",
+      "Built a React Native + SQLite mobile app with on-device OCR (ML Kit), onboarding 10 beta testers and cutting receipt-capture time by 70%."
     ],
     technologies: [
       technologies.typescript,
