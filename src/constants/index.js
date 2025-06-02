@@ -22,6 +22,7 @@ import nat from "../assets/companies/nat.png"
 import eu from "../assets/companies/eu.jpg"
 import dat from "../assets/companies/dat.jpg"
 import instructor from "../assets/companies/instructor.png"
+import space_copy from "../assets/companies/space_copy.png"
 import facialRecognitionCnn from "../assets/projects/facialRecognitionCnn.png"
 import transformerEncoder from "../assets/projects/transformerEncoder.png"
 import raye from "../assets/projects/raye.png"
@@ -260,6 +261,20 @@ const technologies = {
 
 const experiences = [
   {
+    title: "AI Engineering Intern",
+    company_name: "Space Copy",
+    company_link: "https://www.spacecopy.com/", // Replace with actual URL
+    icon: space_copy, // Ensure this icon is imported or defined
+    iconBg: "#040a14", // Adjust color as needed
+    date: "May 2025 – Present",
+    points: [
+      "Leveraging AI & data science for in-situ resource utilization"
+    ],
+    technologies: [
+      technologies.python
+    ],
+  },
+  {
     title: "Data Science Instructor",
     company_name: "Self-Employed",
     company_link: "https://m-affan-nazir.github.io/", // Replace with actual URL
@@ -304,7 +319,7 @@ const experiences = [
     company_name: "Edmonton Unlimited",
     company_link: "https://www.edmontonunlimited.com/", // Replace with actual URL
     icon: eu, // Ensure this icon is imported or defined
-    iconBg: "#9c39ed", // Adjust color as needed
+    iconBg: "#8e4dff", // Adjust color as needed
     date: "May 2024 – August 2024",
     points: [
       "Awarded a $15 000 Edmonton Unlimited grant to tackle retail-ops inefficiencies.",
