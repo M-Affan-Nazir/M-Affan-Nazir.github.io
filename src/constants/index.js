@@ -339,7 +339,7 @@ const experiences = [
     company_link: "https://www.dataannotationtech.com/", // Replace with actual URL
     icon: dat, // Ensure this icon is imported or defined
     iconBg: "black", // Adjust color as needed
-    date: "April 2024 – September 2024",
+    date: "April 2024 – August 2024",
     points: [
       "Evaluated 500+ generative AI code outputs — dry-running Python, JavaScript, and C++ snippets and gave feedback that boosted model accuracy.",
       "Evaluated RAG models’ code completions — uploaded incomplete codebases, judged outputs against fine-grained criteria, benchmarked multiple models, and supplied corrected code for model learning."
