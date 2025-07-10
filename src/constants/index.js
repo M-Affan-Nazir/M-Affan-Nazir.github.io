@@ -296,7 +296,7 @@ const experiences = [
     ],
   },
   {
-    title: "Associate Software Engineer",
+    title: "Software Engineer",
     company_name: "NAT",
     company_link: "https://networkforappliedtech.ca/", // Replace with actual URL
     icon: nat, // Ensure this icon is imported or defined
