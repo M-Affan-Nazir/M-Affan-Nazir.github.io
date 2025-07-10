@@ -18,7 +18,7 @@ import {
   threejs,
 } from "../assets";
 
-import nat from "../assets/companies/nat.png"
+import nat from "../assets/companies/nat.jpeg"
 import eu from "../assets/companies/eu.jpg"
 import dat from "../assets/companies/dat.jpg"
 import instructor from "../assets/companies/instructor.png"
@@ -261,14 +261,14 @@ const technologies = {
 
 const experiences = [
   {
-    title: "AI Engineering Intern",
+    title: "Machine Learning Research Intern",
     company_name: "Space Copy",
     company_link: "https://www.spacecopy.com/", // Replace with actual URL
     icon: space_copy, // Ensure this icon is imported or defined
     iconBg: "#040a14", // Adjust color as needed
     date: "May 2025 – Present",
     points: [
-      "Leveraging AI & data science for in-situ resource utilization"
+      "Researching vision and time-series models for fault detection and process optimization in additive manufacturing."
     ],
     technologies: [
       technologies.python
@@ -297,10 +297,10 @@ const experiences = [
   },
   {
     title: "Associate Software Engineer",
-    company_name: "NeurAlberta Tech",
-    company_link: "https://www.neuralberta.tech/", // Replace with actual URL
+    company_name: "NAT",
+    company_link: "https://networkforappliedtech.ca/", // Replace with actual URL
     icon: nat, // Ensure this icon is imported or defined
-    iconBg: "black", // Adjust color as needed
+    iconBg: "#ff5caf", // Adjust color as needed
     date: "September 2024 – January 2025",
     points: [
       "Built a responsive React + TypeScript NAT-Portal for NatHacks 2024, serving 100+ participants with sub-second page loads and a seamless UX.",
@@ -334,7 +334,7 @@ const experiences = [
     ],
   },
   {
-    title: "LLM Quality Assurance Specialist",
+    title: "LLM Quality Assurance Engineer",
     company_name: "Data Annotation Tech",
     company_link: "https://www.dataannotationtech.com/", // Replace with actual URL
     icon: dat, // Ensure this icon is imported or defined
