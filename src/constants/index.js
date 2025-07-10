@@ -266,7 +266,7 @@ const experiences = [
     company_link: "https://www.spacecopy.com/", // Replace with actual URL
     icon: space_copy, // Ensure this icon is imported or defined
     iconBg: "#040a14", // Adjust color as needed
-    date: "May 2025 – Present",
+    date: "May 2025 – August 2025",
     points: [
       "Researching vision and time-series models for fault detection and process optimization in additive manufacturing."
     ],
