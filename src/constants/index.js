@@ -33,6 +33,7 @@ import cnn from "../assets/projects/cnn.png"
 import financeSystem from "../assets/projects/financeSystem.png"
 import arbitrage from "../assets/projects/arbitrage.png"
 import svm from "../assets/projects/svm.png"
+import heatmap from "../assets/projects/heatmap.png"
 
 import sail from "../assets/leadership/sail.png"
 import uais from "../assets/leadership/uais.jpeg"
@@ -404,6 +405,19 @@ const projects = [
     ],
     image: facialRecognitionCnn,
     source_code_link: "https://github.com/M-Affan-Nazir/facial-landmark-deep-cnn",
+  },
+  {
+    name: "Edmonton Traffic Statistics (ML & Statistical Inference)",
+    description:
+      "Statistical inference & ML on Edmonton collisions × traffic volume × weather; merged features, hypothesis tests (Kruskal–Wallis/Wilcoxon), and Negative Binomial GLM for yearly collision counts.",
+    tags: [
+      { name: "Python", color: "yellow-text-gradient" },
+      { name: "pandas", color: "blue-text-gradient" },
+      { name: "Scikit", color: "orange-text-gradient" },
+      { name: "Statistics", color: "purple-text-gradient" }
+    ],
+    image: heatmap,
+    source_code_link: "https://github.com/M-Affan-Nazir/edmonton-traffic-statistics",
   },
   {
     name: "Dynamic Currency Arbitrage Engine",
