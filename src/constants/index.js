@@ -269,7 +269,9 @@ const experiences = [
     iconBg: "#040a14", // Adjust color as needed
     date: "May 2025 – August 2025",
     points: [
-      "Researching vision and time-series models for fault detection and process optimization in additive manufacturing."
+      "Led a systematic literature review of AM anomaly detection (vision + time-series) and designed a 5-criteria evaluation framework—accuracy, latency, domain-shift robustness, labeling needs, and compute cost—to guide model selection.",
+      "Benchmarked SOTA on production-like data: YOLOv8n mAP@50 = 91.7% @ 71.9 FPS (n=3,550); AlexNet/EfficientNet-B0 + SVM up to 99.7% (n=1,700); Conv-AE TPR = 0.40 / FPR = 0 (n≈876,960 tiles); LSTM-AE precision = 0.95 (supervised).",
+      "Diagnosed failure modes (large, blurred defects; missing vision–sensor control loop) and proposed an Attention-CNN Autoencoder to localize large defects."
     ],
     technologies: [
       technologies.python
