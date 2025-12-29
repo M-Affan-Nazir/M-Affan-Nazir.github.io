@@ -17,7 +17,7 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <div
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-white p-5 rounded-2xl sm:w-[300px] w-full h-full relative shadow-lg"
+        className="bg-white p-5 rounded-2xl sm:w-[360px] w-full h-full relative shadow-lg"
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -58,7 +58,7 @@ const Projects = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        {/* <p className={styles.sectionSubText}>Some things I've worked on</p> */}
+        <p className={styles.sectionSubText}>Selected projects - more on GitHub</p>
         <h2 className={`${styles.sectionHeadText} text-[black]`}>
           Projects
         </h2>

@@ -60,28 +60,21 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-[#5B6B7F] text-[17px] max-w-3xl leading-[30px]"
       >
-      I'm a 3rd-year Computing Science student at the University of Alberta, passionate about leveraging Data Science techniques to build advanced predictive models and translate data into business value. I am also skilled in developing scalable software solutions.
-      </motion.p>
-
-      <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-[#5B6B7F] text-[17px] max-w-3xl leading-[30px]"
-      >
-      My expertise lie in applying statistical methods with tools such as IBM SPSS and R to extract actionable insights, while leveraging Python libraries like Sci-kit Learn, TensorFlow and PyTorch to develop robust models.
+      I'm passionate about building software that solves real problems — especially using algorithms, data, and machine learning. I enjoy taking an idea from messy requirements to a working solution, and I care about making it clear, reliable, and genuinely useful to people.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.3, 1)}
         className="mt-4 text-[#5B6B7F] text-[17px] max-w-3xl leading-[30px]"
       >
-      Inspired by timeless lessons from books like *Zero to One* - I enjoy working on start-up ideas that blend software engineering and machine learning to tackle problems faced by my circle.
+      Inspired by timeless lessons from books like *Zero to One*, I also enjoy working on startup-style ideas where software engineering and machine learning can make everyday problems simpler — especially those which I see around me in my community.
       </motion.p>
 
       <motion.p
         variants={fadeIn("", "", 0.3, 1)}
         className="mt-4 text-[#5B6B7F] text-[17px] max-w-3xl leading-[30px]"
       >
-        In my down time, you'll find me designing on prototype solutions with like minded friends, hiking, or spending time with loved ones!
+        In my down time, you'll find me designing prototype solutions with like minded friends, hiking, or spending time with loved ones!
       </motion.p>
 
       {/* <div className="mt-20 flex flex-wrap gap-10">

@@ -25,13 +25,15 @@ import instructor from "../assets/companies/instructor.png"
 import space_copy from "../assets/companies/space_copy.png"
 import facialRecognitionCnn from "../assets/projects/facialRecognitionCnn.png"
 import transformerEncoder from "../assets/projects/transformerEncoder.png"
-import raye from "../assets/projects/raye.png"
+import raye from "../assets/projects/raye.gif"
+import raye_backend from "../assets/projects/raye_backend.gif"
+import eventease from "../assets/projects/eventease.gif"
 import pr from "../assets/projects/pr.png"
 import chatbot from "../assets/projects/chatbot.png"
 import rnn from "../assets/projects/rnn.png"
 import cnn from "../assets/projects/cnn.png"
 import financeSystem from "../assets/projects/financeSystem.png"
-import arbitrage from "../assets/projects/arbitrage.png"
+import arbitrage from "../assets/projects/arbitrage.gif"
 import svm from "../assets/projects/svm.png"
 import heatmap from "../assets/projects/heatmap.png"
 
@@ -262,78 +264,74 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Machine Learning Research Intern",
+    title: "Research Intern (Artificial Intelligence)",
     company_name: "Space Copy",
     company_link: "https://www.spacecopy.com/", // Replace with actual URL
     icon: space_copy, // Ensure this icon is imported or defined
     iconBg: "#040a14", // Adjust color as needed
-    date: "May 2025 – August 2025",
+    date: "June – September 2025",
     points: [
-      "Led a systematic literature review of AM anomaly detection (vision + time-series) and designed a 5-criteria evaluation framework—accuracy, latency, domain-shift robustness, labeling needs, and compute cost—to guide model selection.",
-      "Benchmarked SOTA on production-like data: YOLOv8n mAP@50 = 91.7% @ 71.9 FPS (n=3,550); AlexNet/EfficientNet-B0 + SVM up to 99.7% (n=1,700); Conv-AE TPR = 0.40 / FPR = 0 (n≈876,960 tiles); LSTM-AE precision = 0.95 (supervised).",
-      "Diagnosed failure modes (large, blurred defects; missing vision–sensor control loop) and proposed an Attention-CNN Autoencoder to localize large defects."
+      "Worked on fault detection for Space Copy’s ISRU 3D printer, using AI to detect printing issues early and improve print quality.",
+      "Researched techniques for automatic visual inspection of printed parts, and examined a method that can pin-point the exact location of defect on the printed object",
+      "Studied strategies to analyze sensor data such as temperature readings, to predict nozzle over-heating and identify abnormal patterns, then wrote an internal report comparing approaches so the team could pick a direction."
     ],
     technologies: [
-      technologies.python
+      // technologies.python
     ],
   },
   {
-    title: "Data Science Instructor",
+    title: "Data Science Tutor",
     company_name: "Self-Employed",
     company_link: "https://m-affan-nazir.github.io/", // Replace with actual URL
     icon: instructor, // Ensure this icon is imported or defined
     iconBg: "white", // Adjust color as needed
-    date: "January 2025 – April 2025",
+    date: "January – April 2025",
     points: [
-      "Taught 20+ hours of live Python, moving learners from core syntax to modular, algorithmic problem-solving.",
-      "Designed end-to-end data workflows—Pandas wrangling, rigorous preprocessing, and interactive Matplotlib/Plotly dashboards.",
-      "Provided 1-on-1 scikit-learn coaching on regression and classification, guiding students toward deployable models."
+      "Taught 20+ hours of live Python, helping students move from basic syntax to using data structures and writing simple algorithms.",
+      "Showed students how to clean and analyze data, make clear visualizations, and use beginner-friendly machine learning to solve prediction problems."
     ],
     technologies: [
-      technologies.python,
-      technologies.scikitlearn,
-      technologies.pandas,
-      technologies.pyplot,
-      technologies.plotly,
-      technologies.jupyter
+      // technologies.python,
+      // technologies.scikitlearn,
+      // technologies.pandas,
+      // technologies.pyplot,
+      // technologies.plotly,
+      // technologies.jupyter
     ],
   },
   {
-    title: "Software Engineer",
+    title: "Software Developer",
     company_name: "NAT",
     company_link: "https://networkforappliedtech.ca/", // Replace with actual URL
     icon: nat, // Ensure this icon is imported or defined
     iconBg: "#ff5caf", // Adjust color as needed
-    date: "September 2024 – January 2025",
+    date: "September – December 2024",
     points: [
-      "Built a responsive React + TypeScript NAT-Portal for NatHacks 2024, serving 100+ participants with sub-second page loads and a seamless UX.",
-      "Authored 5 reusable hooks that unified state and API calls across 15 components, boosting render performance 20% and cutting duplicate code 30%.",
-      "Optimized Strapi CMS and enforced Git-flow best practices, halving content-update time while raising code-review pass rates."
+      "Contributed to building the NatHacks 2024 website and portal, improving the UI design and streamlining the code for faster loading, while helping 100+ participants access event resources and registration smoothly."
     ],
     technologies: [
-      technologies.react,
-      technologies.typescript,
-      technologies.strapi,
-      technologies.git,
+      // technologies.react,
+      // technologies.typescript,
+      // technologies.strapi,
+      // technologies.git,
     ],
   },
   {
-    title: "Technology Grant Winner",
+    title: "Technical Product Lead",
     company_name: "Edmonton Unlimited",
     company_link: "https://www.edmontonunlimited.com/", // Replace with actual URL
     icon: eu, // Ensure this icon is imported or defined
     iconBg: "#8e4dff", // Adjust color as needed
-    date: "May 2024 – August 2024",
+    date: "May – August 2024",
     points: [
-      "Awarded a $15 000 Edmonton Unlimited grant to tackle retail-ops inefficiencies.",
-      "Interviewed 40+ store managers and produced a Lean-Canvas market analysis that surfaced three high-value pain points.",
-      "Built a React Native + SQLite mobile app with on-device OCR (ML Kit), onboarding 10 beta testers and cutting receipt-capture time by 70%."
-    ],
+      "Won a $15,000 grant to build a software tool that helps busy adults and small local retailers track food and reduce waste",
+      "Interviewed 40+ potential users to understand their biggest pain points, then built and launched a free Android app on the Play Store to help people cut organic waste and lower their carbon footprint.",
+      ],
     technologies: [
-      technologies.typescript,
-      technologies.reactNative,
-      technologies.sqlite,
-      technologies.mlKit,
+      // technologies.typescript,
+      // technologies.reactNative,
+      // technologies.sqlite,
+      // technologies.mlKit,
     ],
   },
   {
@@ -348,9 +346,9 @@ const experiences = [
       "Evaluated RAG models’ code completions — uploaded incomplete codebases, judged outputs against fine-grained criteria, benchmarked multiple models, and supplied corrected code for model learning."
     ],
     technologies: [
-      technologies.python,
-      technologies.javascript,
-      technologies.cpp
+      // technologies.python,
+      // technologies.javascript,
+      // technologies.cpp
     ],
   },
 ];
@@ -383,48 +381,77 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Facial Recognition CNN",
+    {
+    name: "Raye (Debates App)",
     description:
-      "A deep learning model built with Python, Keras, and TensorFlow to identify 138 facial landmarks with ±3 pixels accuracy. Utilizes a 10-layer convolutional architecture, max pooling, batch normalization, and LSTM for pattern recognition.",
+      "A full-stack mobile app where students join topic-based debate rooms and discuss ideas respectfully. Users can follow others, post opinions, and share posts — making it easy to explore different perspectives in one place. Built to support open, respectful conversations.",
     tags: [
       {
-        name: "Python",
-        color: "yellow-text-gradient",
+        name: "React Native",
+        color: "blue-text-gradient",
       },
       {
-        name: "Keras",
+        name: "JavaScript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Cross Platform",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: raye,
+    source_code_link: "https://github.com/M-Affan-Nazir/raye-network",
+  },
+  {
+    name: "Raye (Backend API)",
+    description:
+      "The server behind Raye. Developed to manage authentication, user profiles, debate rooms, posts, follows, and sharing. Allows real-time chat and live updates.",
+    tags: [
+      {
+        name: "Node.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "MongoDB",
         color: "purple-text-gradient",
       },
       {
-        name: "TensorFlow",
+        name: "Socket.IO",
+        color: "orange-text-gradient",
+      },
+       {
+        name: "Express",
+        color: "blue-text-gradient",
+      }
+    ],
+    image: raye_backend,
+    source_code_link: "https://github.com/M-Affan-Nazir/Raye-Server-Back-End",
+  },
+    {
+    name: "EventEase (Lottery App)",
+    description:
+      "An Android App that helps organizers run fair event sign-ups. Organizers post events with details (location, photos, capacity), and users join the draw instead of racing for tickets. The app selects attendees at random, helping prevent ticket hoarding and reselling.",
+    tags: [
+      {
+        name: "Java",
         color: "orange-text-gradient",
       },
       {
-        name: "CNN",
+        name: "Android Studio",
+        color: "green-text-gradient",
+      },
+       {
+        name: "Firebase",
         color: "blue-text-gradient",
       },
     ],
-    image: facialRecognitionCnn,
-    source_code_link: "https://github.com/M-Affan-Nazir/facial-landmark-deep-cnn",
+    image: eventease,
+    source_code_link: "https://github.com/RISCVI-301/CMPUT301F25riscvi",
   },
   {
-    name: "Edmonton Traffic Statistics (ML & Statistical Inference)",
+    name: "FX Arbitrage Engine",
     description:
-      "Statistical inference & ML on Edmonton collisions × traffic volume × weather; merged features, hypothesis tests (Kruskal–Wallis/Wilcoxon), and Negative Binomial GLM for yearly collision counts.",
-    tags: [
-      { name: "Python", color: "yellow-text-gradient" },
-      { name: "pandas", color: "blue-text-gradient" },
-      { name: "Scikit", color: "orange-text-gradient" },
-      { name: "Statistics", color: "purple-text-gradient" }
-    ],
-    image: heatmap,
-    source_code_link: "https://github.com/M-Affan-Nazir/edmonton-traffic-statistics",
-  },
-  {
-    name: "Dynamic Currency Arbitrage Engine",
-    description:
-      "Engineered a C++ arbitrage system using libcurl for API integration and nlohmann::json for data parsing. Implemented advanced graph structures with Dijkstra's and Bellman-Ford Algorithm and optimized data handling with HashMaps and custom Min Priority Queues, resulting in significant performance improvements and a 1% increase in real-world arbitrage gains",
+      "A C++ software that watches real-time exchange rates across 27 currencies and flags potential arbitrage loops. Built for speed, it simulates trades and reports the estimated profit for each opportunity.",
     tags: [
       {
         name: "C++",
@@ -435,24 +462,28 @@ const projects = [
         color: "orange-text-gradient",
       },
       {
-        name: "Dijkstra Algorithm",
+        name: "Dijkstra",
         color: "blue-text-gradient",
       },
+      {
+        name: "Bellman-Ford",
+        color: "green-text-gradient",
+      }
     ],
     image: arbitrage,
     source_code_link: "https://github.com/M-Affan-Nazir/arbitrage-engine", //to be filled
   },
-  {
-    name: "BrainWave SVM: Real-Time Mental State Detection",
+   {
+    name: "EEG Excitement Detection",
     description:
-      "Participated in NAT Hackathon 2024 by developing a real-time mental state detection system using EEG signals. Collected and processed 20 brainwave frequencies, identified significant features with Welch’s T-Test, and trained an SVM model with a 90% accuracy rate.",
+      "A machine learning model that reads brainwave signals from a Muse headband and predicts whether someone is excited or neutral. Designed to support mental wellness by helping people notice when they’re getting emotionally activated, so they can pause and use calming techniques.",
     tags: [
       {
         name: "Python",
         color: "yellow-text-gradient",
       },
       {
-        name: "TensorFlow",
+        name: "scikit-learn",
         color: "orange-text-gradient",
       },
       {
@@ -460,7 +491,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Data Analysis",
+        name: "EEG Signals",
         color: "green-text-gradient",
       },
     ],
@@ -468,164 +499,182 @@ const projects = [
     source_code_link: "https://github.com/M-Affan-Nazir/brain-wave-svm",
   },
   {
-    name: "Transformer Encoder",
+    name: "Edmonton Crash Analysis",
     description:
-      "Implemented a Transformer Encoder using Python and PyTorch, featuring tokenization, multi-head attention, and positional encoding. Developed a classification model with improved accuracy over traditional RNNs.",
+      "Analyzed Edmonton collision data (2010–2023) to understand where crashes happen most, how severe they are, and how weather and COVID affected crash rate. Trained a regression model to estimate expected collisions which can help understand risk patterns",
     tags: [
-      {
-        name: "Python",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "PyTorch",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Deep Learning",
-        color: "green-text-gradient",
-      },
+      { name: "Python", color: "yellow-text-gradient" },
+      { name: "pandas", color: "blue-text-gradient" },
+      { name: "regression", color: "orange-text-gradient" },
+      { name: "Inference", color: "purple-text-gradient" }
     ],
-    image: transformerEncoder,
-    source_code_link: "https://github.com/M-Affan-Nazir/transformer-encoder",
+    image: heatmap,
+    source_code_link: "https://github.com/M-Affan-Nazir/edmonton-traffic-statistics",
   },
-  {
-    name: "Global Debates Mobile App",
-    description:
-      "A social media mobile application built with the MERN stack. Features a React Native front-end and a Node.js, Express, Socket.IO, and MongoDB back-end hosted on a VPS, enabling CRUD operations and real-time data transfer.",
-    tags: [
-      {
-        name: "React Native",
-        color: "light-blue-text-gradient",
-      },
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-    ],
-    image: raye,
-    source_code_link: "https://github.com/M-Affan-Nazir/raye-network",
-  },
-  {
-    name: "Polynomial Regressor & Logistic Classifier",
-    description:
-      "Developed machine learning models using stochastic AdaGrad and mini-batch gradient descent to optimize MSE and CCE cost functions for regression and classification tasks.",
-    tags: [
-      {
-        name: "Python",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "Optimization",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Regression",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: pr,
-    source_code_link: "https://github.com/M-Affan-Nazir/polynomial-logistic-regression-classifier",
-  },
-  {
-    name: "Human-Like Chatbot",
-    description:
-      "Built a Seq2Seq model with TensorFlow and Python using 400 LSTM units and a vector size of 50. Implemented an attention mechanism to generate coherent text responses, achieving 93% accuracy on the Cornell Movie Dataset.",
-    tags: [
-      {
-        name: "Python",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "TensorFlow",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "LSTM",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "NLP",
-        color: "purple-text-gradient",
-      },
-    ],
-    image: chatbot,
-    source_code_link: "https://github.com/M-Affan-Nazir/seq2seq-chatbot",
-  },
-  {
-    name: "Advanced Stock Prediction",
-    description:
-      "Developed a Recurrent Neural Network using Python, TensorFlow, and Pandas for time series analysis. The model features 4 layers with 200 LSTM units, achieving 95% accuracy on the test dataset.",
-    tags: [
-      {
-        name: "Python",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "TensorFlow",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "Pandas",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "RNN",
-        color: "green-text-gradient",
-      },
-    ],
-    image: rnn,
-    source_code_link: "https://github.com/M-Affan-Nazir/time-series-prediction-deep-rnn",
-  },
-  {
-    name: "Cancer Detection CNN",
-    description:
-      "Created a Convolutional Neural Network with Python and TensorFlow, featuring 2 convolutional layers and 2 max-pooling layers. The model achieved 98% accuracy on the test dataset for cancer detection.",
-    tags: [
-      {
-        name: "Python",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "TensorFlow",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "CNN",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: cnn,
-    source_code_link: "https://github.com/M-Affan-Nazir/binary-image-classifier-deep-cnn",
-  },
-  {
-    name: "Finance Management System",
-    description:
-      "Developed a CLI application in C++ with CRUD operations and binary file management. Additionally, built a visual analytics tool using C# and the .NET framework to display line charts and bar graphs.",
-    tags: [
-      {
-        name: "C++",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "C#",
-        color: "green-text-gradient",
-      },
-      {
-        name: ".NET",
-        color: "purple-text-gradient",
-      },
-      {
-        name: "CLI",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: financeSystem,
-    source_code_link: "https://github.com/M-Affan-Nazir/finance-management-portal",
-  },
+  // {
+  //   name: "Facial Recognition CNN",
+  //   description:
+  //     "A deep learning model built with Python, Keras, and TensorFlow to identify 138 facial landmarks with ±3 pixels accuracy. Utilizes a 10-layer convolutional architecture, max pooling, batch normalization, and LSTM for pattern recognition.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "Keras",
+  //       color: "purple-text-gradient",
+  //     },
+  //     {
+  //       name: "TensorFlow",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "CNN",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: facialRecognitionCnn,
+  //   source_code_link: "https://github.com/M-Affan-Nazir/facial-landmark-deep-cnn",
+  // },
+  // {
+  //   name: "Transformer Encoder",
+  //   description:
+  //     "Implemented a Transformer Encoder using Python and PyTorch, featuring tokenization, multi-head attention, and positional encoding. Developed a classification model with improved accuracy over traditional RNNs.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "PyTorch",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Deep Learning",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: transformerEncoder,
+  //   source_code_link: "https://github.com/M-Affan-Nazir/transformer-encoder",
+  // },
+
+  // {
+  //   name: "Polynomial Regressor & Logistic Classifier",
+  //   description:
+  //     "Developed machine learning models using stochastic AdaGrad and mini-batch gradient descent to optimize MSE and CCE cost functions for regression and classification tasks.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "Optimization",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Regression",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: pr,
+  //   source_code_link: "https://github.com/M-Affan-Nazir/polynomial-logistic-regression-classifier",
+  // },
+  // {
+  //   name: "Human-Like Chatbot",
+  //   description:
+  //     "Built a Seq2Seq model with TensorFlow and Python using 400 LSTM units and a vector size of 50. Implemented an attention mechanism to generate coherent text responses, achieving 93% accuracy on the Cornell Movie Dataset.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "TensorFlow",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "LSTM",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "NLP",
+  //       color: "purple-text-gradient",
+  //     },
+  //   ],
+  //   image: chatbot,
+  //   source_code_link: "https://github.com/M-Affan-Nazir/seq2seq-chatbot",
+  // },
+  // {
+  //   name: "Advanced Stock Prediction",
+  //   description:
+  //     "Developed a Recurrent Neural Network using Python, TensorFlow, and Pandas for time series analysis. The model features 4 layers with 200 LSTM units, achieving 95% accuracy on the test dataset.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "TensorFlow",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "Pandas",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "RNN",
+  //       color: "green-text-gradient",
+  //     },
+  //   ],
+  //   image: rnn,
+  //   source_code_link: "https://github.com/M-Affan-Nazir/time-series-prediction-deep-rnn",
+  // },
+  // {
+  //   name: "Cancer Detection CNN",
+  //   description:
+  //     "Created a Convolutional Neural Network with Python and TensorFlow, featuring 2 convolutional layers and 2 max-pooling layers. The model achieved 98% accuracy on the test dataset for cancer detection.",
+  //   tags: [
+  //     {
+  //       name: "Python",
+  //       color: "yellow-text-gradient",
+  //     },
+  //     {
+  //       name: "TensorFlow",
+  //       color: "orange-text-gradient",
+  //     },
+  //     {
+  //       name: "CNN",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: cnn,
+  //   source_code_link: "https://github.com/M-Affan-Nazir/binary-image-classifier-deep-cnn",
+  // },
+  // {
+  //   name: "Finance Management System",
+  //   description:
+  //     "Developed a CLI application in C++ with CRUD operations and binary file management. Additionally, built a visual analytics tool using C# and the .NET framework to display line charts and bar graphs.",
+  //   tags: [
+  //     {
+  //       name: "C++",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "C#",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: ".NET",
+  //       color: "purple-text-gradient",
+  //     },
+  //     {
+  //       name: "CLI",
+  //       color: "orange-text-gradient",
+  //     },
+  //   ],
+  //   image: financeSystem,
+  //   source_code_link: "https://github.com/M-Affan-Nazir/finance-management-portal",
+  // },
 
 
 ];
@@ -635,7 +684,7 @@ const links = {
   linkedin: "https://www.linkedin.com/in/affan-nazir/",
   resume: "",
   personalEmail: "dm.affan@outlook.com",
-  schoolEmail: "mnazir1@ualberta.ca",
+  schoolEmail: "dm.affan@outlook.com",
 };
 
 const leadership = [
@@ -647,9 +696,8 @@ const leadership = [
     iconBg: "black", // Adjust color as needed
     date: "April 2025 - Present",
     points: [
-    "Organized and coordinated seminars to introduce students from technical and non technical backgrounds towards AI concepts",
-    // "Covered concepts like Neural Networks, Large Language Models and Image Recognition",
-    // "Co-ordinated with expert speakers including Professors and Industry-Professionals to ensure impactful presentations"
+    "Organized seminars to introduce students from technical and non technical backgrounds towards AI concepts",
+    "Helped a small healthcare software startup build an AI-enabled portal for securely managing confidential patient data.",
     ]
   },
   {

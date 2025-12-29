@@ -34,7 +34,8 @@ const Hero = () => {
           </h1>
 
           <p className={`${styles.heroSubText} mt-4 mb-10`}>
-          👋🏼 I’m a 3rd‑year Computing Science student at the University of Alberta, turning data into insights and crafting solutions that make an impact.
+          👋 I’m a 3rd‑year Computing Science student at the University of Alberta.
+          I love building software and using data to uncover insights.
           </p>
 
           <div className="flex items-center justify-center gap-x-11">
