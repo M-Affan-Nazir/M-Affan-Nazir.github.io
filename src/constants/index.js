@@ -264,7 +264,7 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Research Intern (Artificial Intelligence)",
+    title: "Machine Learning Research Intern",
     company_name: "Space Copy",
     company_link: "https://www.spacecopy.com/", // Replace with actual URL
     icon: space_copy, // Ensure this icon is imported or defined
@@ -279,28 +279,28 @@ const experiences = [
       // technologies.python
     ],
   },
+  // {
+  //   title: "Data Science Tutor",
+  //   company_name: "Self-Employed",
+  //   company_link: "https://m-affan-nazir.github.io/", // Replace with actual URL
+  //   icon: instructor, // Ensure this icon is imported or defined
+  //   iconBg: "white", // Adjust color as needed
+  //   date: "January – April 2025",
+  //   points: [
+  //     "Taught 20+ hours of live Python, helping students move from basic syntax to using data structures and writing simple algorithms.",
+  //     "Showed students how to clean and analyze data, make clear visualizations, and use beginner-friendly machine learning to solve prediction problems."
+  //   ],
+  //   technologies: [
+  //     // technologies.python,
+  //     // technologies.scikitlearn,
+  //     // technologies.pandas,
+  //     // technologies.pyplot,
+  //     // technologies.plotly,
+  //     // technologies.jupyter
+  //   ],
+  // },
   {
-    title: "Data Science Tutor",
-    company_name: "Self-Employed",
-    company_link: "https://m-affan-nazir.github.io/", // Replace with actual URL
-    icon: instructor, // Ensure this icon is imported or defined
-    iconBg: "white", // Adjust color as needed
-    date: "January – April 2025",
-    points: [
-      "Taught 20+ hours of live Python, helping students move from basic syntax to using data structures and writing simple algorithms.",
-      "Showed students how to clean and analyze data, make clear visualizations, and use beginner-friendly machine learning to solve prediction problems."
-    ],
-    technologies: [
-      // technologies.python,
-      // technologies.scikitlearn,
-      // technologies.pandas,
-      // technologies.pyplot,
-      // technologies.plotly,
-      // technologies.jupyter
-    ],
-  },
-  {
-    title: "Software Developer",
+    title: "Software Engineer",
     company_name: "NAT",
     company_link: "https://networkforappliedtech.ca/", // Replace with actual URL
     icon: nat, // Ensure this icon is imported or defined
@@ -317,7 +317,7 @@ const experiences = [
     ],
   },
   {
-    title: "Technical Product Lead",
+    title: "Software Engineer",
     company_name: "Edmonton Unlimited",
     company_link: "https://www.edmontonunlimited.com/", // Replace with actual URL
     icon: eu, // Ensure this icon is imported or defined
@@ -334,23 +334,23 @@ const experiences = [
       // technologies.mlKit,
     ],
   },
-  {
-    title: "LLM Quality Assurance Engineer",
-    company_name: "Data Annotation Tech",
-    company_link: "https://www.dataannotationtech.com/", // Replace with actual URL
-    icon: dat, // Ensure this icon is imported or defined
-    iconBg: "black", // Adjust color as needed
-    date: "January 2024 – April 2024",
-    points: [
-      "Evaluated 500+ generative AI code outputs — dry-running Python, JavaScript, and C++ snippets and gave feedback that boosted model accuracy.",
-      "Evaluated RAG models’ code completions — uploaded incomplete codebases, judged outputs against fine-grained criteria, benchmarked multiple models, and supplied corrected code for model learning."
-    ],
-    technologies: [
-      // technologies.python,
-      // technologies.javascript,
-      // technologies.cpp
-    ],
-  },
+  // {
+  //   title: "LLM Quality Assurance Engineer",
+  //   company_name: "Data Annotation Tech",
+  //   company_link: "https://www.dataannotationtech.com/", // Replace with actual URL
+  //   icon: dat, // Ensure this icon is imported or defined
+  //   iconBg: "black", // Adjust color as needed
+  //   date: "January 2024 – April 2024",
+  //   points: [
+  //     "Evaluated 500+ generative AI code outputs — dry-running Python, JavaScript, and C++ snippets and gave feedback that boosted model accuracy.",
+  //     "Evaluated RAG models’ code completions — uploaded incomplete codebases, judged outputs against fine-grained criteria, benchmarked multiple models, and supplied corrected code for model learning."
+  //   ],
+  //   technologies: [
+  //     // technologies.python,
+  //     // technologies.javascript,
+  //     // technologies.cpp
+  //   ],
+  // },
 ];
 
 const testimonials = [
@@ -694,7 +694,7 @@ const leadership = [
     company_link: "https://societyforailiteracy.com/", // Replace with actual URL
     icon: sail, // Ensure this icon is imported or defined
     iconBg: "black", // Adjust color as needed
-    date: "April 2025 - Present",
+    date: "April 2025 - March 2026",
     points: [
     "Organized seminars to introduce students from technical and non technical backgrounds towards AI concepts",
     "Helped a small healthcare software startup build an AI-enabled portal for securely managing confidential patient data.",
@@ -732,7 +732,7 @@ const leadership = [
     company_link: "https://lgsjt.edu.pk/", // Replace with actual URL
     icon: lgs, // Ensure this icon is imported or defined
     iconBg: "white", // Adjust color as needed
-    date: "January 2019 - January 2020",
+    date: "January 2020 - January 2021",
     points: [
     "Lead student delegations to multiple Model United Nations and Parliamentary Debates",
     "Facilitated monthly training sessions to enhance students' presentation and argumentation skills",
@@ -745,7 +745,7 @@ const leadership = [
     company_link: "https://lgsjt.edu.pk/", // Replace with actual URL
     icon: lgs, // Ensure this icon is imported or defined
     iconBg: "white", // Adjust color as needed
-    date: "January 2018 - January 2019",
+    date: "January 2019 - January 2020",
     points: [
     "Represented school at multiple events",
     "Tutored students in Math and Computer Science"
