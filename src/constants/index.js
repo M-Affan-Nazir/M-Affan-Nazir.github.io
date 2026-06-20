@@ -23,6 +23,8 @@ import eu from "../assets/companies/eu.jpg"
 import dat from "../assets/companies/dat.jpg"
 import instructor from "../assets/companies/instructor.png"
 import space_copy from "../assets/companies/space_copy.png"
+import pcl from "../assets/companies/pcl2.png"
+import resolver from "../assets/companies/resolver.jpg"
 import facialRecognitionCnn from "../assets/projects/facialRecognitionCnn.png"
 import transformerEncoder from "../assets/projects/transformerEncoder.png"
 import raye from "../assets/projects/raye.gif"
@@ -264,6 +266,36 @@ const technologies = {
 
 const experiences = [
   {
+    title: "Software Automation Engineer",
+    company_name: "Resolver, a Kroll Business",
+    company_link: "https://www.resolver.com/", // Replace with actual URL
+    icon: resolver, // Ensure this icon is imported or defined
+    iconBg: "#46a096", // Adjust color as needed
+    date: "May 2026 - Present",
+    points: [
+      "Core Risk Intelligence Platform"
+    ],
+    technologies: [
+      // technologies.python
+    ],
+  },
+   {
+    title: "Machine Learning Engineer (Capstone)",
+    company_name: "PCL Construction",
+    company_link: "https://www.pcl.com/ca/en", // Replace with actual URL
+    icon: pcl, // Ensure this icon is imported or defined
+    iconBg: "#ffffff", // Adjust color as needed
+    date: "January - April 2026",
+    points: [
+     "Built a vision-language extraction app for PCL Construction that transforms piping isometric drawings into structured JSON, giving welders and fabrication teams a faster way to interpret drawing sheets.",
+     "Fine-tuned Qwen2.5-VL-7B with LoRA on labeled isometric drawings to improve callout-to-dimension extraction",
+     "Designed the supporting computer vision and evaluation pipeline, including OpenCV-based cropping, overlapping patch generation, ink-density filtering, and JSON comparison scripts to test extraction quality across multiple VLM experiments."
+    ],
+    technologies: [
+      // technologies.python
+    ],
+  },
+  {
     title: "Machine Learning Research Intern",
     company_name: "Space Copy",
     company_link: "https://www.spacecopy.com/", // Replace with actual URL
@@ -307,7 +339,7 @@ const experiences = [
     iconBg: "#ff5caf", // Adjust color as needed
     date: "September – December 2024",
     points: [
-      "Contributed to building the NatHacks 2024 website and portal, improving the UI design and streamlining the code for faster loading, while helping 100+ participants access event resources and registration smoothly."
+      "Contributed to building the NatHacks 2024 website and portal, improving the UI design and streamlining the code for faster loading, while helping 580+ participants access event resources and registration smoothly."
     ],
     technologies: [
       // technologies.react,
