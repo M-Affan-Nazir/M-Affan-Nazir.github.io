@@ -25,6 +25,7 @@ import instructor from "../assets/companies/instructor.png"
 import space_copy from "../assets/companies/space_copy.png"
 import pcl from "../assets/companies/pcl2.png"
 import resolver from "../assets/companies/resolver.jpg"
+import kroll from "../assets/companies/kroll.png"
 import facialRecognitionCnn from "../assets/projects/facialRecognitionCnn.png"
 import transformerEncoder from "../assets/projects/transformerEncoder.png"
 import raye from "../assets/projects/raye.gif"
@@ -266,14 +267,14 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Software Automation Engineer",
-    company_name: "Resolver, a Kroll Business",
-    company_link: "https://www.resolver.com/", // Replace with actual URL
-    icon: resolver, // Ensure this icon is imported or defined
-    iconBg: "#46a096", // Adjust color as needed
+    title: "Software Engineer",
+    company_name: "Kroll",
+    company_link: "https://www.kroll.com/", // Replace with actual URL
+    icon: kroll, // Ensure this icon is imported or defined
+    iconBg: "#14487F", // Adjust color as needed
     date: "May 2026 - Present",
     points: [
-      "Core Risk Intelligence Platform"
+      "Resolver, Core Risk Intelligence Platform"
     ],
     technologies: [
       // technologies.python
