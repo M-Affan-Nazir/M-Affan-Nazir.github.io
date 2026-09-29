@@ -267,7 +267,7 @@ const technologies = {
 
 const experiences = [
   {
-    title: "Software Engineer",
+    title: "Software Engineer (Co-op)",
     company_name: "Kroll",
     company_link: "https://www.kroll.com/", // Replace with actual URL
     icon: kroll, // Ensure this icon is imported or defined
